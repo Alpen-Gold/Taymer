@@ -81,3 +81,43 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 400px;
+  }
+
+  .card-timer .spanTimer {
+    font-size: 35px;
+  }
+
+  .cardButton {
+    display: flex;
+    gap: 44px;
+    button {
+      min-width: 88px;
+      height: 34px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cards {
+    width: 300px;
+  }
+
+  .card-timer .spanTimer {
+    font-size: 25px;
+  }
+
+  .cardButton {
+    display: flex;
+    gap: 28px;
+    button {
+      min-width: 0px;
+      height: 29px;
+      font-size: 7px;
+    }
+  }
+}
